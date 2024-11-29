@@ -1,0 +1,163 @@
+html {
+    font-family: 'poppins';
+}
+
+body{
+    background-color:aliceblue;
+    color: black;
+}
+
+header{
+    margin: 0;
+    background-color: darkcyan;
+    color: white;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+header h1{
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.Descripción {
+    background-color: white; /* Fondo blanco */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 50px; /* Espaciado interno */
+    max-width: 1000px; /* Ancho máximo */
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+
+.Descripción p {
+    text-align: justify;
+}
+
+.Acerca {
+    background-color: darkcyan;
+}
+
+.Descripción1 {
+    background-color: cadetblue;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    max-width: 1000px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 150px;
+    align-items: center;
+}
+
+.Descripción1 p{
+    color: #fff;
+}
+
+.Descripción1 h2 {
+    color:#fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Descripción1 p {
+    text-align: justify;
+}
+
+.Habilidades {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    max-width: 1000px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 150px;
+    align-items: center;
+    display: flex;
+}
+
+.Programa {
+    background-color:cadetblue;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    max-width: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.Programa p{
+    color:#fff;
+    text-align: center;
+}
+.Programa img {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.Compañeros {
+   
+    background-color:cadetblue;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    max-width: 1000px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.Compañeros h2{
+    color:#fff;
+}
+
+.Compañeros a {
+    transition: color 0.3s ease;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Compañeros a:hover {
+    color:black;
+}
+
+
+footer {
+    padding: 2rem;
+    background-color: black;
+    color:#fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color:#fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:cadetblue;
+
+}
